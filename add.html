@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tarefas</title>
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+<body>
+    <header>
+        <h2>Lista de tarefas</h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Lista</a></li>
+            <li><a class="active" href="add.html">Adicionar</a></li>    
+        </ul>
+    </nav>
+<div class="container">
+    <h2>Adicionar tarefas</h2>
+    <form action="input">
+        <input type="date" id=date placeholder="Data">
+        <input type="text" id=text placeholder="Digite aqui">
+        
+        <button type="button" onclick="salva()">Adicionar</button>
+    </form>
+</div>
+<script src="loc.js"></script>
+</body>
+</html>

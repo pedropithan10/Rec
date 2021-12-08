@@ -1,0 +1,45 @@
+
+nav{
+    background-color: rgb(93, 0, 168);
+    color: #000000;
+    padding: 1px;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;   
+    background-color: rgb(93, 0, 168); 
+}
+
+nav li > a{
+    text-decoration: none;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: 8px;
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff;
+    font-size: large;
+    background-color: rgb(93, 0, 168);
+    
+}
+header{
+    background-color: rgb(75, 1, 136);
+    color: #ffffff;
+    padding: 1px;
+}
+.active{
+    color: aqua;
+    transition: 1s;
+    
+}
+.container{
+    border: 1px solid rgb(93, 0, 168);
+    border-radius: 0.35em;
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+}
